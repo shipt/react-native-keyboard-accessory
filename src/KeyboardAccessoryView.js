@@ -72,7 +72,6 @@ class KeyboardAccessoryView extends Component {
   handleChildrenLayout = (layoutEvent) => {
     this.setState({
       visibleAccessoryHeight: layoutEvent.nativeEvent.layout.height,
-      accessoryHeight: this.props.alwaysVisible ? layoutEvent.nativeEvent.layout.height : 0,
     });
   }
 
@@ -130,7 +129,7 @@ class KeyboardAccessoryView extends Component {
     this.setState({
       isKeyboardVisible: false,
       keyboardHeight: 0,
-      accessoryHeight: this.props.alwaysVisible ? this.state.visibleAccessoryHeight : 0,
+      accessoryHeight: this.state.visibleAccessoryHeight,
     })
   }
 
@@ -157,7 +156,7 @@ class KeyboardAccessoryView extends Component {
     const applySafeArea = isSafeAreaSupported && inSafeAreaView;
 
     return (
-      <View style={{ height: (isKeyboardVisible || alwaysVisible ? visibleHeight  : 0) }}>
+      <View style={{ height: (isKeyboardVisible || alwaysVisible ? visibleHeight : 0) }}>
         <View style={[
           styles.accessory,
           !hideBorder && styles.accessoryBorder,
