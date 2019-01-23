@@ -1,5 +1,5 @@
 {
-  "name": "shipt-react-native-keyboard-accessory",
+  "name": "forked-react-native-keyboard-accessory",
   "version": "0.1.10",
   "description": "A forked version of React Native Keyboard Accessory with a couple fixes specific to our use.",
   "author": {
