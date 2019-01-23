@@ -1,9 +1,9 @@
 {
-  "name": "react-native-keyboard-accessory",
+  "name": "shipt-react-native-keyboard-accessory",
   "version": "0.1.9",
-  "description": "A React Native Keyboard Accessory (View, Navigation) Component. Sticky views on keyboard.",
+  "description": "A forked version of React Native Keyboard Accessory with a couple fixes specific to our use.",
   "author": {
-    "name": "Arda Oğulcan Pektaş",
+    "name": "Arda Oğulcan Pektaş, Jeremy Dunn",
     "email": "ardaogulcan@gmail.com"
   },
   "scripts": {
