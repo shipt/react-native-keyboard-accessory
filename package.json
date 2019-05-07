@@ -1,6 +1,6 @@
 {
   "name": "react-native-keyboard-accessory-forked",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A forked version of React Native Keyboard Accessory with a couple fixes specific to our use.",
   "author": {
     "name": "Arda Oğulcan Pektaş, Jeremy Dunn",
