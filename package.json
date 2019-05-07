@@ -1,6 +1,6 @@
 {
   "name": "react-native-keyboard-accessory-forked",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A forked version of React Native Keyboard Accessory with a couple fixes specific to our use.",
   "author": {
     "name": "Arda Oğulcan Pektaş, Jeremy Dunn",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ardaogulcan/react-native-keyboard-accessory.git"
+    "url": "git+https://github.com/newshipt/react-native-keyboard-accessory.git"
   },
   "bugs": {
-    "url": "https://github.com/ardaogulcan/react-native-keyboard-accessory/issues"
+    "url": "https://github.com/newshipt/react-native-keyboard-accessory/issues"
   },
-  "homepage": "https://github.com/ardaogulcan/react-native-keyboard-accessory",
+  "homepage": "https://github.com/newshipt/react-native-keyboard-accessory.git",
   "keywords": [
     "react",
     "react-native",
